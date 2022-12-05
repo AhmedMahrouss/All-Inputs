@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="#" method="get">
+        <fieldset>
+            <legend>All Types Of Inputs</legend>
+            <input type="text" name="Name" placeholder="Text">
+            <br> 
+            <input type="email" name="email" placeholder="Email">
+            <br>
+            <input type="password" name="password" placeholder="Password">
+            <br>
+            <input type="tel" name="Phone" placeholder="Phone Number">
+            <br>
+            <input type="date" name="date">
+            <br> 
+            <input type="radio" name="Gender" id="male" value="Male">
+            <label for="male">Male</label>
+            <input type="radio" name="Gender" id="female" value="Female">
+            <label for="female">Female</label>
+            <br> <br>
+            <span>What is your favourite language ?</span>
+            <br>
+            <input type="checkbox" name="lang" id="HTML">
+            <label for="HTML">HTML</label>
+           <br>
+            <input type="checkbox" name="lang" id="CSS">
+            <label for="CSS">CSS</label>
+            <br>
+            <input type="checkbox" name="lang" id="js">
+            <label for="js">Javascript</label>
+           <br>
+            <input type="checkbox" name="lang" id="php">
+            <label for="php">PHP</label>
+            <br>
+            <input type="file" name="file" >
+            <br>
+            <input type="range" name="range" min="0" max="100" value="50" step="1">
+            <br>
+            <input type="url" name="url" placeholder="URL.." >
+            <br>
+            <input type="color" name="color" >
+            <br>
+            <input type="number" name="num" placeholder="Num" min="0" max="100" value="50">
+            <br>
+            <input type="search" name="search" placeholder="Search..">
+            <br>
+            <input type="submit" value="Done">
+            <input type="reset">
+
+        </fieldset>
+    </form>
+</body>
+<style>
+    legend{
+        text-align: center;
+        color: darkviolet;
+        font-weight: bold;
+      
+    }
+    input{
+        margin-top: 5%;
+    }fieldset{ 
+        background-color: wheat;
+        box-shadow: 0px 0px 2px white , 0px 0px 10px #f9004d;
+    }form{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }input[type="submit"]{
+        padding: 7px 13px;
+        background-color: #f9004d;
+        color: white;
+        border-radius: 20px;
+        border: none;
+        transition: .5s;
+    }input[type="submit"]:hover{
+        background-color: transparent;
+        outline: none;
+        color: black;
+        border: 2px solid #f9004d;
+    }input[type="reset"]{
+        padding: 7px 13px;
+        background-color: #f9004d;
+        color: white;
+        border-radius: 20px;
+        border: none;
+        transition: .5s;
+    }input[type="reset"]:hover{
+        background-color: transparent;
+        outline: none;
+        color: black;
+        border: 2px solid #f9004d;
+    }h4{
+      
+    }span{
+        font-weight: bold;
+    }
+</style>
+</html>
